@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--text-color);
+    font-family: "Jost", sans-serif;
+}
+
+
+
+
+/* =============== Topbar sections =============== */
+
+.top-bar-con a {
+    color: #2b2945;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.top-bar-con a:hover {
+    text-decoration: none;
+    color:  #ff8900;;
+}
+
+.top-bar-con a:hover i {
+    color:  #ff8900;;
+    transition: ease-in-out 0.6s;
+}
+
+.top-bar-con .right-con a {
+    letter-spacing: -0.3px;
+}
+
+.top-bar-con {
+    padding: 8px 0;
+}
+
+.top-bar-con a i {
+    color: #2b2945;
+}
+
+.bg-outer-wrapper {
+    background: linear-gradient(to bottom, #cce5dd 0%, #ffffff 100%);
+}
+
+
